@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            
+            display: block;
+            background-color: aqua;
+            text-align: center;
+            height: 300px;
+            width: 300px;
+            
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: green;
+            */
+            border: 10px solid green;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            padding: 10px;
+
+            /*
+            margin: auto; Centraliza
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 30px;
+            margin-left: 10px;
+            */
+            margin: 10px auto 30px auto;
+
+            /*
+            outline-width: 7px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+
+            outline: 5px dashed salmon;
+
+        }
+        #a1 {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos tbm sºao exemplos de box-level, <a id="a1" href="">mas os links são exemplos de caixas inline-level</a>. Vamos ver como funciona</p>
+    <button><a href="caixa2.html">GoTo Pag2</a></button>
+</body>
+</html>

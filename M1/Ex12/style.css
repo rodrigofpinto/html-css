@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(20, 109, 0);
+}
+.video{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+.botao{
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+            #  = id
+            .  = class 
+            :  = pseudoclass
+            :: = psudo-element
+            > clildren
+        */
+        main {
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.534);
+            width: 600px;
+            padding: 10px;
+            margin: auto;  
+        }
+        body {
+            background-color: blue;
+        }
+
+
+        #h1{
+            
+            color: red;
+            font-weight: bold;
+            text-align: center;
+            height: 90px;
+            width: 200px;
+        }
+        h1:hover{
+            text-decoration: underline;
+        }
+        a {
+            color: red;
+            font-size: 17px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{ /*Se já foi visitado segue isto*/
+            color: darkred;
+        }
+        a:hover { /*Se o mouse estiver por cima segue isto*/
+            color: black;
+            text-decoration: underline;
+        }
+        a:active { /*Se o mouse estiver a CLICAR segue isto*/
+            color: yellow;
+        }
+        a::before {
+            content: "⇒";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        a::after {
+            content: "⇐ [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        
+        .div1{
+            width: 80px;
+        }
+        
+        .div1:hover{
+            display: block;
+            color: blue ;
+            height: 200px;
+            text-decoration: underline;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <main>
+        <span id ="h1">
+            <h1>Personalizando links</h1>
+        </span>
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io" target="_blank">Github</a></li>
+            <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal Yt</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="_blank">Site curso em video</a></li>
+        </ul>
+        <div class="div1">
+            <p>View More</p>
+        </div>
+        
+    </main>
+        
+</body>
+</html>

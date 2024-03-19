@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 213, 96);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(171, 171, 171);
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.559);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            
+        }
+
+        article {
+            background-color: rgb(175, 175, 175);
+            padding: 10px;
+        }
+        aside {
+            background-color: rgb(66, 66, 66);
+            color: aliceblue;
+            text-decoration: underline;
+        }
+        footer {
+            position: relative;
+            
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="caixa1.html">AAA</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>    
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre PT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam aliquid alias reprehenderit fugiat, rerum deserunt est officiis quo eum adipisci? Laudantium optio repellendus necessitatibus saepe facere nobis aperiam eligendi.</p>
+                <aside>
+                    <p>Artigo escrito por Atum</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Desenvolvido pelo Rodrigo Pinto</p>
+    </footer>
+</body>
+</html>
