@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo 1</title>
+    <style>
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+            mask-repeat: no-repeat;
+        }
+        .quadrada{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 3px;
+            height: 300px;
+            width: 300px;
+            margin-left: 10px;
+        }
+        #q1 {
+            background-color: blue;
+        }
+        #q2 {
+            background-image: linear-gradient(to right, blue, white) ;
+        }
+        #q3 {
+            background-image: url(imagens/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrada" id="q1"></div>
+    <div class="quadrada" id="q2"></div>
+    <div class="quadrada" id="q3"></div>
+</body>
+</html>
