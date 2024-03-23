@@ -40,9 +40,9 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    
-
-
+}
+section.normal > p {
+    padding-bottom: 50px;
 }
 section.normal {
     background-color: white;
@@ -51,11 +51,24 @@ section.normal {
 section.imagem {
     background-color: rgb(124, 124, 124);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.549);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.189);
+    background-color: rgba(0, 0, 0, 0.274);
     padding: 5px;
+    text-shadow: 1px 1px 0px black ;
+    
+}
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+
+}
+#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 a {
     color: white;
