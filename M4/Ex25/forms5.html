@@ -8,11 +8,23 @@
 <body>
     <h1>Forms Ex</h1>
     <form action="cadastro.php" method="get">
-        <legend>Esportes Favoritos</legend>
-        <input type="checkbox" name="esbas" id="iesbas"> Basquete
-        <input type="checkbox" name="esfut" id="iesfut"> Futebol
-        <input type="checkbox" name="esnat" id="iesnat"> Natação
-        <input type="checkbox" name="esten" id="iesten"> Tenís
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label>
+            <input type="radio" name="sexo" id="isxnone"><label for="isxnone">Prefiro não divulgar</label>
+        </fieldset>
+        <!--
+            botao de radio - tem que ter o MESMO NOME, ID DIFERENTE, só pode ter um selecionado.
+            checked - serve para assinalar por pré definição;
+        -->
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked > <label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label><br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tenís</label><br>
+        </fieldset>
         <p>
             <input type="submit" value="Submeter">
             <input type="reset" value="Limpar">
